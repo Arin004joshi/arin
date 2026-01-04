@@ -9,9 +9,9 @@ const Homepage = () => {
                 </div>
                 <div className="mt-6 md:mt-0">
                     <img
-                        src="https://i.pinimg.com/736x/a5/95/4d/a5954dcb62b8bf6bb9af3bc9964f6945.jpg"
+                        src="arin.jpeg"
                         alt="Profile"
-                        className="w-32 h-32 rounded-full border border-gray-700"
+                        className="w-32 h-32 rounded-full border border-gray-700 object-cover"
                     />
                 </div>
             </div>
