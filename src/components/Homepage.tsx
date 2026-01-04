@@ -9,7 +9,7 @@ const Homepage = () => {
                 </div>
                 <div className="mt-6 md:mt-0">
                     <img
-                        src="arin.jpeg"
+                        src="arin_v2.jpeg"
                         alt="Profile"
                         className="w-32 h-32 rounded-full border border-gray-700 object-cover"
                     />
