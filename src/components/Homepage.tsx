@@ -29,14 +29,22 @@ const Homepage = () => {
 
             {/* Cool Places I Worked At */}
             <section className="section mb-10" id="experience">
-                <h2 className="text-xl font-semibold mb-2">Cool places I worked at</h2>
+                <h2 className="text-xl font-semibold mb-2">Cool places I have worked at</h2>
 
                 {[
+                    {
+                        logo: "https://kapybara.company/images/logo-long.png",
+                        company: "Kapybara",
+                        title: "Full-Stack Developer Intern",
+                        duration: "March 2026 - present",
+                        logoClassName: "w-20 h-8",
+                    },
                     {
                         logo: "https://media.licdn.com/dms/image/v2/D560BAQG8Se0yW0_Z_A/company-logo_200_200/B56ZkK_bhgG0AM-/0/1756826026815/nexus_hub_cnxiter_logo?e=1761782400&v=beta&t=HQxXMVBwEwsPI7k4AVC-MVerwy4rutYacmpQKVXY3VI",
                         company: "Nexus-E1",
                         title: "Open source contributor",
-                        duration: "August 2025 - present",
+                        duration: "August 2025 - October 2025",
+                        logoClassName: "w-8 h-8",
                     },
                 ].map((job, idx) => (
                     <div
@@ -47,7 +55,7 @@ const Homepage = () => {
                             <img
                                 src={job.logo}
                                 alt={`${job.company} Logo`}
-                                className="w-8 h-8 rounded"
+                                className={`${job.logoClassName} rounded object-contain`}
                             />
                             <div className="job-details">
                                 <p className="company font-semibold">{job.company}</p>
